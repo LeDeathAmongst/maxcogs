@@ -78,7 +78,7 @@ class URLModal(discord.ui.View):
                 ephemeral=True,
             )
             return
-        if not url.endswith("#egg=Red-DiscordBot"):
+        if not url.endswith(""):
             await interaction.followup.send(
                 "This is not a valid url for your fork.", ephemeral=True
             )
